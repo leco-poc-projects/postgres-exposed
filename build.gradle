@@ -13,7 +13,7 @@ repositories {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     compile 'com.zaxxer:HikariCP:3.3.0'
-    compile 'org.jetbrains.exposed:exposed:0.12.1'
+    compile 'org.jetbrains.exposed:exposed:0.11.2'
     compile 'org.postgresql:postgresql:42.2.5'
 }
 

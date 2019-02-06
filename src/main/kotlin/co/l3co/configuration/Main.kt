@@ -26,6 +26,7 @@ fun main() {
 
     val database = Database.connect(hikariDataSource("test"))
 
+
     runWithinTransaction(database) {
         SchemaUtils.create(Test)
 
